@@ -19,7 +19,9 @@ const Header = () => {
       <Navbar className="headernavbar" expand="lg">
         <Container fluid className="dorap">
           <div>
-            <h4 className="recipe">Recipe</h4>
+            <Link to="/">
+              <h4 className="recipe">Recipe</h4>
+            </Link>
           </div>
 
           <div className="mainform">
